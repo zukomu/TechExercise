@@ -46,12 +46,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" runat="server" href="~/">Movie Club</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                    </ul>
-
+                    <a class="navbar-brand" runat="server" href="~/credit.aspx">credit to</a>
                 </div>
             </div>
         </div>
@@ -59,9 +54,9 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
+
+                    <footer>
+                    </footer>
         </div>
     </form>
 </body>

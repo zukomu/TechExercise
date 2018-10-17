@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Xml.Linq;
 
-public partial class Default2 : System.Web.UI.Page
+public partial class movie : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -22,10 +22,12 @@ public partial class Default2 : System.Web.UI.Page
             movieName.Text = MovieTitle;
             movieGenre.Text = MovieGenre;
             movieDescription.Text = MovieDescription;
+            movieIMDB.NavigateUrl = "https://www.imdb.com/title/" + MovieID;
         }
         catch
         {
             movieName.Text = "movie not found, please return to home screen and try again";
+            movieIMDB.Text = " ";
         }
     }
 }
