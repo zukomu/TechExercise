@@ -5,7 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Xml.Linq;
-
+// this page contains the code necessary to populate the movie.aspx page with information. the code is almost identical to the search code from default.aspx with 
+// a couple minor changes to account for different needs. for example the poster doesn't need to be a hyperlink so the code to make that happen isn't needed here.
 public partial class movie : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)

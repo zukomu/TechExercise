@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="movie.aspx.cs" Inherits="movie" %>
-
+<%-- This is a page that will display information of a specific film. is is built to serve as a placeholder that will inherit information from any film that the user
+    wants, this means that we only need to have some empty objects on this page that we can fill when the page is loaded. In the meantime I have some lorem ipsum text
+    to help me test what it would look like while full without having to generate information on a film every time I want to test something. --%>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
     <div style="margin-left: 30%; margin-top:10%">
         <div style="float:left; margin-right:15px">
